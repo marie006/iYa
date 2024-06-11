@@ -1,0 +1,23 @@
+header
+{
+    display: flex;
+    background-color: #7F3001;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7,5;
+}
+
+.listanav
+{
+    background-color: #7F3001;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    background-image: url(INDAYARA-removebg-preview.png);
+}
+
+.listanav li
+{
+    font-size: 16px;
+    margin: 1rem;
+}
