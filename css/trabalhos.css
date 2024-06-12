@@ -1,3 +1,45 @@
+/* Trabalhos*/
+.corpo
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    transition: 0.5s;
+    background: #000;
+}
+
+.trabalhos
+{
+    display: flex;
+    max-width: 800px;
+    width: calc(100% - 100px);
+    height: 400px;
+}
+
+.trabalhos .box 
+{
+    position: relative;
+    min-width: 60px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: auto 150%;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* escopo a ser usado */
 main
