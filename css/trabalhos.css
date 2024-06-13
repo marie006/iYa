@@ -71,7 +71,7 @@
 
 
 
-/* escopo a ser usado */
+/* escopo a ser usado
 main
 {
     display: flex;
@@ -138,5 +138,9 @@ img
 {
     transform: translateY(0);
 }
+    */
+
+
+
 
 
