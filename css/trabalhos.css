@@ -9,7 +9,10 @@
     height: 300px;
 }
 
-
+.bodyCorpo
+{
+    max-width: 1600px;
+}
 .corpo
 {
     display:flex;
@@ -20,12 +23,13 @@
     width: 100%;
     height: 80vh;
     transition: 0.5s;
-    background:  #FF8033;
+    background-color: #FF8033;
 }
 
 .tituloTrabalhos, .subtituloTrabalhos
 {
     text-align: center;
+    color: #fff;
 }
 
 .trabalhos
@@ -33,7 +37,7 @@
     display: flex;
     max-width: 800px;
     width: calc(100% - 100px);
-    height: 400px;
+    height: 600px;
 }
 
 .trabalhos .box 
@@ -71,7 +75,9 @@
 
 
 
-/* escopo a ser usado */
+
+
+/* escopo a ser usado
 main
 {
     display: flex;
@@ -138,5 +144,9 @@ img
 {
     transform: translateY(0);
 }
+    */
+
+
+
 
 

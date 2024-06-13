@@ -1,0 +1,65 @@
+.historiadastranças
+{
+    color: #7F3001;
+    text-align: center;
+}
+
+.historia
+{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco1, .bloco4
+{
+    background-color: #7F3001;
+    color: #fff;
+    padding: 2rem;
+}
+
+.bloco1
+{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    text-align: justify;
+}
+
+.bloco2
+{
+    /*border: 1px solid black;*/
+    width: 50%;
+    height: 400px;
+    background-image: url(../imagens/FREEPIK\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bloco3
+{
+    /*border: 1px solid black;*/
+    width: 50%;
+    height: 400px;
+    background-image: url(../imagens/FREEPIK__3_-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #E6BE9D;
+}
+
+.bloco4
+{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    text-align: justify;
+    justify-content: center;
+}
+
