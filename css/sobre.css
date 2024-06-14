@@ -31,10 +31,39 @@ header
     margin-bottom: 20px;
 }
 
-.texto1
+.estrutura1
 {
-    text-align: left;
-    border: solid 2px #7f3001 ;
+    display: flex;
+ 
+}
+
+.texto1 
+{
+  margin: auto;
+  width: 1000px;
+  justify-content: center;
+  border:  outset 10px #ff8033;
+  color: #ffff;
+  background-color: rgba(127, 48, 01, 0.9);
+
+}
+
+.estrutura2
+{
+    display:flex;
     
 }
-  
+
+
+
+
+.texto2
+{
+    margin: auto;
+    width: 1000px;
+    justify-content: center;
+    border:  outset 10px #ff8033;
+    color: #ffff;
+    background-color: rgba(127, 48, 01, 0.9);
+}
+
