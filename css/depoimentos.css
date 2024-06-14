@@ -1,0 +1,45 @@
+.depoimentos
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.slideContent
+{
+    margin: 0 40px;
+}
+.card
+{
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.imageContent, .cardContent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.cardImage
+{
+    position: relative;
+    height: 150px;
+    width: 100px;
+    padding: 3px;   
+   
+}
+
+.cardImage .cardImg{
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #FF8033;
+
+}
