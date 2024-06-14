@@ -1,0 +1,28 @@
+footer
+{
+    background-color: #FF8033;
+    color: aliceblue;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footersocial
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:
+    text-align: center;
+    text-align: justify;
+}
+
+.footerfavelas
+{
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    border: 1px solid black;
+}
