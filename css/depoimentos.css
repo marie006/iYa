@@ -4,18 +4,41 @@
     height: 400px;
     display: flex;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(255, 245, 233);
 }
 
-.slideContent
+.slideContainer
 {
-    margin: 0 40px;
+   
+    max-width: 1120px;
+    width: 100%;
+    background-color: gray;
+    padding: 40px 0;
 }
 .card
 {
     width: 320px;
+    height: 350px;
     border-radius: 25px;
     background-color: #fff;
+}   
+
+.cardImage .cardImg{
+    height: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 90%;
+    border: 4px solid #fff;
+}
+
+.cardImage
+{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+    
+    padding: 3px;  
 }
 
 .imageContent, .cardContent
@@ -26,20 +49,57 @@
     padding: 10px 14px;
 }
 
-.cardImage
+.imageContent
 {
+    row-gap: 5px;
     position: relative;
-    height: 150px;
-    width: 100px;
-    padding: 3px;   
-   
+    padding: 25px 0;
 }
 
-.cardImage .cardImg{
+.overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #FF8033;
+    width: 100%;
+    background-color: #FF8033;
+    border-radius: 25px 25px 0 25px;
+}
 
+.overlay::before, .overlay::after
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #FF8033;
+}
+
+.overlay::after
+{
+     border-radius: 0 25px 0 0;
+    background-color: #fff;
+
+
+}
+
+
+
+
+
+.name
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.comentario
+{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
 }
