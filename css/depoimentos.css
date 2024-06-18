@@ -1,18 +1,15 @@
-.depoimentos
+.mb-3{
+    font-size: large;
+    
+}
+.slideContainer
 {
+   
+    background-color: rgb(253, 243, 232);
     width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
-    background-color: rgb(255, 245, 233);
-}
-
-.slideContainer
-{
-   
-    max-width: 1120px;
-    width: 100%;
-    background-color: gray;
     padding: 40px 0;
 }
 .card
@@ -20,6 +17,7 @@
     width: 320px;
     height: 350px;
     border-radius: 25px;
+    margin: 30px;
     background-color: #fff;
 }   
 
@@ -103,3 +101,5 @@
     color: #707070;
     text-align: center;
 }
+
+

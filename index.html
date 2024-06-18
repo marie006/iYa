@@ -8,11 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+<style></style>
+<script type='text/javascript' src=''></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+
 
 <!--Swiper CSS-->
 <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
-<body>
+<body oncontextmenu='return false' class='snippet-body'>
     
 <!--Mari-->
 
@@ -40,27 +47,104 @@
 
     </section>
 </section>
-<!--Depoimentos-->
-<section class="depoimentos">
- <div class="slideContainer">
-    <div class="cardwrapper">
-    <div class="card">
-            <div class="imageContent">
-                <span class="overlay"></span>
 
-                <div class="cardImage">
-                    <img src="/imagens/nicole.jpeg" alt="" class="cardImg">
+<!--Depoimentos-->
+<section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="mb-3">Depoimentos</h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="./imagens/isaias.jpeg" width="180px">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Isaías Gonçalves</h4>
+                                            <p class="card-text">Trabalho lindo, já estou pensando no próximo modelo!</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="200x280" src="./imagens/nicole.jpeg" width="170px">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Nicole Silva</h4>
+                                            <p class="card-text">Eu amei o resultado, já faz um mês que estou com as tranças e elas estão intactas, recomendo muito!</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="./imagens/nathali.jpeg" width="160px">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Nathali Moore</h4>
+                                            <p class="card-text">Agradeço pelo trabalho excepcional, estou cada dia me amando mais com o novo visual.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="./imagens/raquel.jpeg" width="180px">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Raquel Xavier</h4>
+                                            <p class="card-text">Mudar de visual virou meu autocuidado, você renova minha autoestima sempre! </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="./imagens/kelly.jpeg" width="200px">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Kelly Farias</h4>
+                                            <p class="card-text">Fiquei linda pra curtir o feriado, obrigada amiga!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="./imagens/mariacristina.jpeg" width="220px">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Maria Cristina</h4>
+                                            <p class="card-text">Minha filha amou, obrigada por todo o cuidado com ela!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                       
+                    </div>
                 </div>
             </div>
-        
-
-        <div class="cardContent">
-            <h2 class="name">Nicole Silva</h2>
-            <p class="comentario">Amei o trabalho, já tem um mês que coloquei as tranças e elas estão intactas! Super indico!</p>
         </div>
     </div>
-</div>
-</div>
 </section>
 
 
@@ -199,7 +283,7 @@
 
 <!--Swiper Script-->
 <script src="js/swiper-bundle.min.js"></script>
-
+<script type='text/javascript'></script>
 <!--JavaScript-->
 <script src="js/script.js"></script>
 </html>
