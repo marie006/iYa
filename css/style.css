@@ -6,7 +6,6 @@
 @import url(footer2.css);
 
 
-
 *
 {
     padding: 0;
@@ -24,4 +23,9 @@ ul
 a
 {
     text-decoration: none;
+}
+
+.card
+{
+    align-items: center;
 }
