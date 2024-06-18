@@ -2,8 +2,13 @@
 @import url(sobre.css);
 @import url(historiadastranças.css);
 @import url(depoimentos.css);
+<<<<<<< HEAD
 @import url(trabalhos.css);
 @import url(footer2.css);
+=======
+@import url(trabalhos.css   );
+@import url(footer.css);
+>>>>>>> 5cc0e62f1aadbe152a73d88147f413224a4b3892
 
 
 *
