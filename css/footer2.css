@@ -5,7 +5,15 @@
   box-sizing: border-box;
 }
   
+<<<<<<< Updated upstream
 .bodyDaMalu
+=======
+<<<<<<< HEAD
+.footer
+=======
+.bodyDaMalu
+>>>>>>> 5694bfb986cf224ee5dae945dc957646802a5c77
+>>>>>>> Stashed changes
 {
   display: flex;
   justify-content: center;
