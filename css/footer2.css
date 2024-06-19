@@ -125,3 +125,8 @@ footer .wave
 {
   width: 100px;
 }
+
+ul
+{
+  padding-left: 0!important;
+}
