@@ -1,5 +1,6 @@
 .depoimentosCorpo
 {
+    height: 80vh;
     background-color: rgb(250, 240, 232);
     color: #F26F63;
     text-align: center;
@@ -108,7 +109,3 @@
 }
 
 
-img{
-    width: 60%;
-    height:100%;
-}

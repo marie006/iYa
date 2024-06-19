@@ -5,12 +5,11 @@
   box-sizing: border-box;
 }
   
-body
+.bodyDaMalu
 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  min-height: 100vh;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -117,12 +116,12 @@ footer .wave
   flex-wrap: wrap;
 }
 
-.footerDificil img
+.footerDificil >img
 {
   width: 100px;
 }
 
-.logoFavelas img
+.logoFavelas >img
 {
   width: 100px;
 }
