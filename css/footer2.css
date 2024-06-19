@@ -66,6 +66,21 @@ footer .menu li a
  transition: 0.5s;
 }
 
+footer .menu2 li
+{
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+ display: block;
+}
+
+.lado{
+  display: flex;
+}
+
+
+
 footer .menu li a:hover
 {
   opacity: 1;
@@ -89,4 +104,25 @@ footer .wave
   width: 100%;
   display: flex;
   justify-content: center;
+  background: #f26f63;
+  color: #fff;
+  padding-left: 120px;
+}
+
+.footerDificil
+{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footerDificil img
+{
+  width: 100px;
+}
+
+.logoFavelas img
+{
+  width: 100px;
 }
