@@ -1,4 +1,14 @@
-   
+header
+{
+    display: flex;          
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(127, 48, 01, 0.9);
+    border-radius: 5px;
+  
+}
+
 .listanav
 {
    
