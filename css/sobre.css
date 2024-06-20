@@ -1,3 +1,13 @@
+.ajuda
+{
+ background-color: #f7d0b8;
+}
+
+
+
+
+
+
 header
 {
     display: flex;          
@@ -42,9 +52,10 @@ header
   margin: auto;
   width: 1000px;
   justify-content: center;
-  border:  outset 10px #ff8033;
-  color: #ffff;
-  background-color: rgba(127, 48, 01, 0.9);
+  border-left: #f26f63 solid 8px;
+  color: #7f3001;
+  background-color: #fff;
+  padding: 8px;
 
 }
 
@@ -62,8 +73,14 @@ header
     margin: auto;
     width: 1000px;
     justify-content: center;
-    border:  outset 10px #ff8033;
-    color: #ffff;
-    background-color: rgba(127, 48, 01, 0.9);
+    border-right: #ff8033 solid 8px;
+    color: #7f3001;
+    background-color: #fff;
+    padding: 8px;
 }
+
+.imagem2 > img{
+    margin-bottom: 100px;
+}
+
 
