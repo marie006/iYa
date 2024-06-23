@@ -11,7 +11,14 @@
 
 .bodyCorpo
 {
+    background-color: rgb(250, 240, 232);
+}
+
+.corpo
+{
     max-width: 1800px;
+    margin: auto;
+    
 }
 .corpo
 {
@@ -74,7 +81,10 @@
     justify-content: space-evenly;
 }
 
-
+.TextoMari
+{
+    font-weight: bold;
+}
 
 
 
