@@ -107,6 +107,9 @@ main
     min-width: 90px;
     overflow: hidden;
     margin: 10px;
+    margin-top: 75px;
+   
+    
     background-size: auto 150%;
     background-position: center;
     cursor: pointer;
