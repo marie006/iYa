@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="header.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -12,20 +13,31 @@
 
 <body class="sos">
     
-    <header class="header">
-
-    <a href="#" class="logo"><img src="../imagens/INDAYARA (1).svg" alt="" srcset="" class="imagemLogo"></a>
-    
-    <nav class="navbar">
-        <button id="btn-mobile">Menu</button>
-        <ul id="menu"></ul>
-           <li>Pagina Inicial</li>
-          <li>Me conheça</li>
-          <li>Contatos</li>
-        </ul>
+    <header>
+    <nav class="header">
+        <div class="logo">
+            <img src="../imagens/INDAYARA (1).svg" alt="" width="80px">
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn" onclick="botao()" id="botaun">
+            <div class="p1"></div>
+            <div class="p1"></div>
+            <div class="p1"></div>
+        </label>
+        <label class="menuGambiarra" id="menuGambiarraMalu" onclick=fechar()>
+            X
+        </label>
+      
+     <ul id="lista">
+        <li><a class="active" href="#">Início</a></li>
+        <li><a href="#">Me conheça</a></li>
+        <li><a href="#">Contatos</a></li>
+     </ul>
     </nav>
     </header>
+     <section></section>
 
-    <script src="../js/header.js"></script>
+
+     <script src="script.js"></script>
 </body>
 </html>

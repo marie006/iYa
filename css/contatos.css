@@ -1,0 +1,75 @@
+.banner
+{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+iframe
+{
+    width: 100%;
+    border-radius: 15px; 
+}
+
+.blocoInscricao
+{
+    height: 350px;
+}
+.subscribe
+{
+    margin: auto;
+    padding: 35px;
+    font-size: 19px;
+    border-radius: 10px;
+    max-width: 1500px;
+    min-height: 250px;
+   padding-top: 80px;
+    text-align: justify;
+    color: white;
+    background: rgb(242,111,99);
+    background: linear-gradient(0deg, rgba(242,111,99,1) 11%, rgba(126,70,28,0.5578606442577031) 92%);
+}
+
+.mari
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.botao
+{
+    margin: 40px;
+}
+
+.signUp
+{
+    background-color: #fff;
+    color: #f26f63;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px  white ;
+}
+
+.bannerImg
+{
+    width: 100%;
+}
+
+input
+{
+    height: 35px;
+    width: 250px;
+}
+
+@media(max-width: 760px)
+{
+    iframe
+    {
+        margin: 0;
+    }
+}
+
+.oi{
+    text-decoration: none;
+}

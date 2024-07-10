@@ -4,6 +4,7 @@
 @import url(depoimentos.css);
 @import url(trabalhos.css);
 @import url(footer2.css);
+@import url(contatos.css);
 
 
 *
@@ -23,4 +24,15 @@ ul
 a
 {
     text-decoration: none;
+}
+
+.preto
+{
+    height: 100px;
+    background-color: rgb(250, 240, 232);
+}
+
+header
+{
+    z-index: 10;
 }

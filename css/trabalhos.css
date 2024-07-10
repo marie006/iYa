@@ -1,55 +1,4 @@
 /* Trabalhos*/
-*
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.corpo
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    height: 100vh;
-    transition: 0.5s;
-    background: #000;
-}
-
-.trabalhos
-{
-    display: flex;
-    max-width: 800px;
-    width: calc(100% - 100px);
-    height: 400px;
-}
-
-.trabalhos .box 
-{
-    position: relative;
-    min-width: 60px;
-    overflow: hidden;
-    margin: 10px;
-    background-size: auto 150%;
-    background-position: center;
-    cursor: pointer;
-}
-
-
-
-
-/* escopo a ser usado 
-main
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #FF8033;
-    width: 100%;
-    height: 600px;
-}
-
 .video
 {
     margin: 30px;
@@ -142,9 +91,18 @@ main
 
 
 
+@media (max-width: 760px) {
+    .trabalhos
+    {
+        display: none;
+    }
+}
 
 
 
+.tira{
+    text-decoration: none;
+}
 
 
 /* escopo a ser usado
@@ -217,9 +175,6 @@ img
     */
 
 
-    /* História das tranças*/
 
-.tipos
-    {
-        list-style-type:decimal
-    }
+
+
